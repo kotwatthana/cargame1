@@ -9,7 +9,7 @@ public class MainP extends JFrame implements ActionListener{
     private JButton new_game = new JButton("New Game");
     private JPanel panel = new JPanel();
     private ImageIcon image = new ImageIcon(System.getProperty("user.dir") + File.separator + "car.gif");
-    private JLabel finnish = new JLabel(new ImageIcon(System.getProperty("user.dir") + File.separator + "finnish.JPG"));
+    private JLabel finnish = new JLabel(new ImageIcon(System.getProperty("user.dir") + File.separator + "finnish.png"));
     private JLabel background = new JLabel(new ImageIcon(System.getProperty("user.dir") + File.separator + "lo.png"));
     JLabel win = new JLabel("Winner");
     private JLabel[] car = new JLabel[4];
